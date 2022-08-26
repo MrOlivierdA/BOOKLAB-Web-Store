@@ -12,7 +12,6 @@
 
 ## Learning objectives
 
-##Learning objectives
 - MySQL
 - Laravel
 - React improvements
