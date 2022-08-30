@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StorebookRequest;
-use App\Http\Requests\UpdatebookRequest;
-use App\Models\book;
+use App\Http\Requests\Storeauthor_bookRequest;
+use App\Http\Requests\Updateauthor_bookRequest;
+use App\Models\author_book;
 
-class BookController extends Controller
+class AuthorBookController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class BookController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorebookRequest  $request
+     * @param  \App\Http\Requests\Storeauthor_bookRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorebookRequest $request)
+    public function store(Storeauthor_bookRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class BookController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\author_book  $author_book
      * @return \Illuminate\Http\Response
      */
-    public function show(book $book)
+    public function show(author_book $author_book)
     {
         //
     }
@@ -53,10 +53,10 @@ class BookController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\author_book  $author_book
      * @return \Illuminate\Http\Response
      */
-    public function edit(book $book)
+    public function edit(author_book $author_book)
     {
         //
     }
@@ -64,11 +64,11 @@ class BookController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatebookRequest  $request
-     * @param  \App\Models\book  $book
+     * @param  \App\Http\Requests\Updateauthor_bookRequest  $request
+     * @param  \App\Models\author_book  $author_book
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatebookRequest $request, book $book)
+    public function update(Updateauthor_bookRequest $request, author_book $author_book)
     {
         //
     }
@@ -76,10 +76,10 @@ class BookController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\author_book  $author_book
      * @return \Illuminate\Http\Response
      */
-    public function destroy(book $book)
+    public function destroy(author_book $author_book)
     {
         //
     }

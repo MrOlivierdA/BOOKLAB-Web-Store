@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StorebookRequest;
-use App\Http\Requests\UpdatebookRequest;
-use App\Models\book;
+use App\Http\Requests\Storebook_orderRequest;
+use App\Http\Requests\Updatebook_orderRequest;
+use App\Models\book_order;
 
-class BookController extends Controller
+class BookOrderController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +31,10 @@ class BookController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StorebookRequest  $request
+     * @param  \App\Http\Requests\Storebook_orderRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorebookRequest $request)
+    public function store(Storebook_orderRequest $request)
     {
         //
     }
@@ -42,10 +42,10 @@ class BookController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\book_order  $book_order
      * @return \Illuminate\Http\Response
      */
-    public function show(book $book)
+    public function show(book_order $book_order)
     {
         //
     }
@@ -53,10 +53,10 @@ class BookController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\book_order  $book_order
      * @return \Illuminate\Http\Response
      */
-    public function edit(book $book)
+    public function edit(book_order $book_order)
     {
         //
     }
@@ -64,11 +64,11 @@ class BookController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdatebookRequest  $request
-     * @param  \App\Models\book  $book
+     * @param  \App\Http\Requests\Updatebook_orderRequest  $request
+     * @param  \App\Models\book_order  $book_order
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatebookRequest $request, book $book)
+    public function update(Updatebook_orderRequest $request, book_order $book_order)
     {
         //
     }
@@ -76,10 +76,10 @@ class BookController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\book  $book
+     * @param  \App\Models\book_order  $book_order
      * @return \Illuminate\Http\Response
      */
-    public function destroy(book $book)
+    public function destroy(book_order $book_order)
     {
         //
     }
