@@ -13,6 +13,8 @@ backend/Homestead.yaml
 backend/auth.json
 backend/npm-debug.log
 backend/yarn-error.log
+backend/draft.yaml
+backend/.bleuprint
 
 #Frontend
 
