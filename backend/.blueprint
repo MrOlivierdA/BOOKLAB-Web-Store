@@ -1,0 +1,6 @@
+models:
+    Author: { firstName: string, lastName: string, email: string, biography: text, relationships: { belongsToMany: Book } }
+    Book: { title: string, publication: date, language: string, publisher: string, isbn: 'string:13', synopsis: text, cover: string, price: integer, stock: integer, ebook: 'enum:"Book","Ebook","Both"', relationships: { belongsToMany: 'Author, Category, Order' } }
+    Category: { name: string }
+    User: { firstName: string, LastName: string, email: string, street: 'string nullable', number: 'integer nullable', city: 'string nullable', postalCode: 'number nullable default:4', Country: 'string nullable', status: 'enum:inactif,actif', password: string, avatar: string, relationships: { hasMany: Order } }
+    Order: { user_id: 'id foreign', orderDate: date, status: 'enum:"en attente de paiement","payer","en preparation","livrer","annuler","non payer"', shippingDate: 'date nullable', paymentDate: 'date nullable', relationships: { belongsToMany: Book } }
