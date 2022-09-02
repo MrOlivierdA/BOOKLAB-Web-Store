@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function NavbarVisitor() {
 	return (
 		<>
@@ -9,23 +11,27 @@ export function NavbarVisitor() {
 						</a>
 
 						<nav className="hidden lg:flex gap-12 2xl:ml-16">
-							<a href="#" className="text-indigo-500 text-lg font-semibold">
+							<Link to="/" className="text-indigo-500 text-lg font-semibold">
 								Home
-							</a>
-							<a href="#" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
+							</Link>
+							<Link to="/products" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
 								Products
-							</a>
-							<a href="#" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
+							</Link>
+							<Link to="/about" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
 								About
-							</a>
+							</Link>
 						</nav>
 						<div className="hidden lg:flex space-x-4 items-center gap-6 2xl:ml-16 ">
-							<a href="#" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
+							<Link to="/login" className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">
 								Log In
-							</a>
-							<a href="#" className="inline-block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">
+							</Link>
+
+							<Link
+								to="/register"
+								className="inline-block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
+							>
 								Sign Up
-							</a>
+							</Link>
 						</div>
 
 						<button type="button" className="inline-flex items-center lg:hidden bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold rounded-lg gap-2 px-2.5 py-2">
