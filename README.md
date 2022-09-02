@@ -1,4 +1,4 @@
-# Challenge: Officine-des-Mots
+# Challenge: BOOKLAB
 
 > E-shop project (Book store) 🛒
 
