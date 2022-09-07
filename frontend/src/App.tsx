@@ -5,6 +5,7 @@ import { About } from "./Pages/About";
 import { Cart } from "./Pages/Cart";
 import { LoginPage } from "./Pages/LoginPage";
 import { RegisterPage } from "./Pages/RegisterPage";
+import { DashboardPage } from "./Pages/DashboardPage";
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/cart" element={<Cart />} />
 				<Route path="/login" element={<LoginPage />} />
 				<Route path="/register" element={<RegisterPage />} />
+				<Route path="/account" element={<DashboardPage />} />
 			</Routes>
 		</>
 	);
