@@ -21,7 +21,12 @@ export function Sales() {
 						</div>
 
 						<div className="w-full sm:w-1/2 lg:w-3/5 h-48 sm:h-auto order-first sm:order-none bg-gray-700">
-							<img src="https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500" loading="lazy" alt="Photo by Dom Hill" className="w-full h-full object-cover object-center" />
+							<img
+								src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&h=500"
+								loading="lazy"
+								alt="Photo by Dom Hill"
+								className="w-full h-full object-cover object-center"
+							/>
 						</div>
 					</div>
 				</div>

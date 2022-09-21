@@ -20,7 +20,7 @@ export function Products() {
 						<div>
 							<Link to="/productsdetails" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=800"
 									loading="lazy"
 									alt="Photo by Rachit Tank"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -44,7 +44,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=800"
 									loading="lazy"
 									alt="Photo by Galina N"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -65,7 +65,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by eniko kis"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -86,8 +86,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&q=75&fit=crop&w=600"
-									loading="lazy"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									alt="Photo by Irene Kredenets"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
 								/>
@@ -107,7 +106,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1528476513691-07e6f563d97f?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Charles Deluvio"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -128,7 +127,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1612033448550-9d6f9c17f07d?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Fernando Lavin"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -149,7 +148,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1579609598065-79f8e5bcfb70?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Kiran CK"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -171,7 +170,7 @@ export function Products() {
 						<div>
 							<a href="#" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
-									src="https://images.unsplash.com/photo-1619066045029-5c7e8537bd8c?auto=format&q=75&fit=crop&w=600"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Fakurian Design"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"

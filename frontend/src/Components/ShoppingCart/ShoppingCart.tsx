@@ -11,7 +11,7 @@ export function ShoppingCart() {
 						<div className="flex flex-wrap border rounded-lg overflow-hidden gap-x-4 sm:gap-y-4 lg:gap-6">
 							<a href="#" className="group w-32 sm:w-40 h-48 sm:h-56 block bg-gray-100 overflow-hidden relative">
 								<img
-									src="https://images.unsplash.com/photo-1612681621979-fffe5920dbe8?auto=format&q=75&fit=crop&w=200"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Thái An"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -21,11 +21,11 @@ export function ShoppingCart() {
 							<div className="flex flex-col justify-between flex-1 py-4">
 								<div>
 									<a href="#" className="inline-block text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100 mb-1">
-										Top
+										The Unsplash Book
 									</a>
 
-									<span className="block text-gray-500">Size: S</span>
-									<span className="block text-gray-500">Color: White</span>
+									{/* <span className="block text-gray-500">Size: S</span>
+									<span className="block text-gray-500">Color: White</span> */}
 								</div>
 
 								<div>
@@ -63,7 +63,7 @@ export function ShoppingCart() {
 						<div className="flex flex-wrap border rounded-lg overflow-hidden gap-x-4 sm:gap-y-4 lg:gap-6">
 							<a href="#" className="group w-32 sm:w-40 h-48 sm:h-56 block bg-gray-100 overflow-hidden relative">
 								<img
-									src="https://images.unsplash.com/photo-1542327897-4141b355e20e?auto=format&q=75&fit=crop&w=200"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by Jessica Radanavong"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -73,11 +73,11 @@ export function ShoppingCart() {
 							<div className="flex flex-col justify-between flex-1 py-4">
 								<div>
 									<a href="#" className="inline-block text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100 mb-1">
-										Jacket
+										The Unsplash Book
 									</a>
 
-									<span className="block text-gray-500">Size: M</span>
-									<span className="block text-gray-500">Color: Black</span>
+									{/* <span className="block text-gray-500">Size: M</span>
+									<span className="block text-gray-500">Color: Black</span> */}
 								</div>
 
 								<div>
@@ -115,7 +115,7 @@ export function ShoppingCart() {
 						<div className="flex flex-wrap border rounded-lg overflow-hidden gap-x-4 sm:gap-y-4 lg:gap-6">
 							<a href="#" className="group w-32 sm:w-40 h-48 sm:h-56 block bg-gray-100 overflow-hidden relative">
 								<img
-									src="https://images.unsplash.com/photo-1590926938512-c0d7e5c39abd?auto=format&q=75&fit=crop&w=200"
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
 									loading="lazy"
 									alt="Photo by vahid kanani"
 									className="w-full h-full object-cover object-center group-hover:scale-110 transition duration-200"
@@ -125,11 +125,11 @@ export function ShoppingCart() {
 							<div className="flex flex-col justify-between flex-1 py-4">
 								<div>
 									<a href="#" className="inline-block text-gray-800 hover:text-gray-500 text-lg lg:text-xl font-bold transition duration-100 mb-1">
-										Business suit
+										The Unsplash Book
 									</a>
 
-									<span className="block text-gray-500">Size: S</span>
-									<span className="block text-gray-500">Color: Black</span>
+									{/* <span className="block text-gray-500">Size: S</span>
+									<span className="block text-gray-500">Color: Black</span> */}
 								</div>
 
 								<div>

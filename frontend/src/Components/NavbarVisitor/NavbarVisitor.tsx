@@ -7,7 +7,7 @@ export function NavbarVisitor() {
 				<div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
 					<header className="flex justify-between items-center py-4 md:py-8 mb-8 md:mb-12 xl:mb-16">
 						<a href="/" className="inline-flex items-center text-black-800 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
-							BookStore
+							BookLab
 						</a>
 
 						<nav className="hidden lg:flex gap-12 2xl:ml-16">

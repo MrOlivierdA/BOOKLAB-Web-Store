@@ -6,19 +6,12 @@ export function ProductsDetails() {
 					<div className="grid md:grid-cols-2 gap-8">
 						<div className="space-y-4">
 							<div className="bg-gray-100 rounded-lg overflow-hidden relative">
-								<img src="https://images.unsplash.com/flagged/photo-1571366992942-be878c7b10c0?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Himanshu Dewangan" className="w-full h-full object-cover object-center" />
-
-								<span className="bg-red-500 text-white text-sm tracking-wider uppercase rounded-br-lg absolute left-0 top-0 px-3 py-1.5">sale</span>
-							</div>
-
-							<div className="grid grid-cols-2 gap-4">
-								<div className="bg-gray-100 rounded-lg overflow-hidden">
-									<img src="https://images.unsplash.com/flagged/photo-1571366992791-2ad2078656cb?auto=format&q=75&fit=crop&w=250" loading="lazy" alt="Photo by Himanshu Dewangan" className="w-full h-full object-cover object-center" />
-								</div>
-
-								<div className="bg-gray-100 rounded-lg overflow-hidden">
-									<img src="https://images.unsplash.com/flagged/photo-1571366992968-15b65708ee76?auto=format&q=75&fit=crop&w=250" loading="lazy" alt="Photo by Himanshu Dewangan" className="w-full h-full object-cover object-center" />
-								</div>
+								<img
+									src="https://images.unsplash.com/photo-1461419912973-9964f1f54b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80"
+									loading="lazy"
+									alt="Photo by Himanshu Dewangan"
+									className="w-full h-full object-cover object-center"
+								/>
 							</div>
 						</div>
 
@@ -57,40 +50,21 @@ export function ProductsDetails() {
 									view all 47 reviews
 								</a>
 							</div>
+							<div className="mt-10 md:mt-16 lg:mt-3 mb-2">
+								<div className="text-gray-800 text-lg font-semibold mb-3">Description</div>
 
-							<div className="mb-4 md:mb-6">
-								<span className="inline-block text-gray-500 text-sm md:text-base font-semibold mb-3">Color</span>
-
-								<div className="flex flex-wrap gap-2">
-									<span className="w-8 h-8 bg-gray-800 border ring-2 ring-offset-1 ring-gray-800 rounded-full transition duration-100"></span>
-									<button type="button" className="w-8 h-8 bg-gray-500 border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
-									<button type="button" className="w-8 h-8 bg-gray-200 border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
-									<button type="button" className="w-8 h-8 bg-white border ring-2 ring-offset-1 ring-transparent hover:ring-gray-200 rounded-full transition duration-100"></button>
-								</div>
-							</div>
-
-							<div className="mb-8 md:mb-10">
-								<span className="inline-block text-gray-500 text-sm md:text-base font-semibold mb-3">Size</span>
-
-								<div className="flex flex-wrap gap-3">
-									<button type="button" className="w-12 h-8 flex justify-center items-center bg-white hover:bg-gray-100 active:bg-gray-200 text-gray-800 text-sm font-semibold text-center border rounded-md transition duration-100">
-										XS
-									</button>
-									<button type="button" className="w-12 h-8 flex justify-center items-center bg-white hover:bg-gray-100 active:bg-gray-200 text-gray-800 text-sm font-semibold text-center border rounded-md transition duration-100">
-										S
-									</button>
-									<span className="w-12 h-8 flex justify-center items-center bg-indigo-500 text-white text-sm font-semibold text-center border border-indigo-500 rounded-md cursor-default">M</span>
-									<button type="button" className="w-12 h-8 flex justify-center items-center bg-white hover:bg-gray-100 active:bg-gray-200 text-gray-800 text-sm font-semibold text-center border rounded-md transition duration-100">
-										L
-									</button>
-									<span className="w-12 h-8 flex justify-center items-center bg-white text-gray-400 text-sm font-semibold text-center border border-transparent rounded-md cursor-not-allowed">XL</span>
-								</div>
+								<p className="text-gray-500">
+									This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for
+									testing.
+									<br />
+									<br />
+									This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.
+								</p>
 							</div>
 
 							<div className="mb-4">
 								<div className="flex items-end gap-2">
 									<span className="text-gray-800 text-xl md:text-2xl font-bold">$15.00</span>
-									<span className="text-red-500 line-through mb-0.5">$30.00</span>
 								</div>
 
 								<span className="text-gray-500 text-sm">incl. VAT plus shipping</span>
@@ -123,18 +97,6 @@ export function ProductsDetails() {
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
 									</svg>
 								</a>
-							</div>
-
-							<div className="mt-10 md:mt-16 lg:mt-20">
-								<div className="text-gray-800 text-lg font-semibold mb-3">Description</div>
-
-								<p className="text-gray-500">
-									This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for
-									testing.
-									<br />
-									<br />
-									This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.
-								</p>
 							</div>
 						</div>
 					</div>
