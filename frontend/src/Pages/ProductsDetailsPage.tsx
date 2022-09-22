@@ -1,13 +1,13 @@
 import { Navbar } from "../Components/Navbar/Navbar";
 import { Newsletter } from "../Components/Newsletter/Newsletter";
 import { Footer } from "../Components/Footer/Footer";
-import { Products } from "../Components/Products/Products";
+import { ProductsDetails } from "../Components/ProductsDetails/ProductsDetails";
 
-export function ProductsDetails() {
+export function ProductsDetailsPage() {
 	return (
 		<>
 			<Navbar />
-			<Products />
+			<ProductsDetails />
 			<Newsletter />
 			<Footer />
 		</>
