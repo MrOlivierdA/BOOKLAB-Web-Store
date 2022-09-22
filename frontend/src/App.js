@@ -6,6 +6,7 @@ import { Cart } from "./Pages/Cart";
 import { LoginPage } from "./Pages/LoginPage";
 import { RegisterPage } from "./Pages/RegisterPage";
 import { DashboardPage } from "./Pages/DashboardPage";
+import { SuccessPage } from "./Pages/SuccessPage";
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
 				<Route path="/login" element={<LoginPage />} />
 				<Route path="/register" element={<RegisterPage />} />
 				<Route path="/account" element={<DashboardPage />} />
+				<Route path="/pay" element={<Cart />} />
+				<Route path="/success" element={<SuccessPage />} />
 			</Routes>
 		</>
 	);
