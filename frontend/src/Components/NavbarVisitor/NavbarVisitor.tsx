@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function NavbarVisitor() {
   return (
     <>
-      <div className="bg-yellow-100 rounded-xl shadow pb-6 sm:pb-8 lg:pb-12">
+      <div className=" bg-stone-100 rounded-xl shadow pb-6 sm:pb-8 lg:pb-6 mb-8">
         <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           <header className="flex justify-between items-center py-4 md:py-8 mb-8 md:mb-12 xl:mb-16">
             <a
@@ -36,7 +36,7 @@ export function NavbarVisitor() {
                 to="/login"
                 className="text-gray-600 hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100"
               >
-                Log In
+                Login
               </Link>
 
               <Link
