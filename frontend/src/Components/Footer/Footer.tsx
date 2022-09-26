@@ -100,7 +100,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Overview
                   </a>
@@ -109,7 +109,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Solutions
                   </a>
@@ -118,7 +118,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Pricing
                   </a>
@@ -127,7 +127,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Customers
                   </a>
@@ -144,7 +144,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     About
                   </a>
@@ -153,7 +153,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Investor Relations
                   </a>
@@ -162,7 +162,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Jobs
                   </a>
@@ -171,7 +171,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Press
                   </a>
@@ -180,7 +180,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Blog
                   </a>
@@ -197,7 +197,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Contact
                   </a>
@@ -206,7 +206,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Documentation
                   </a>
@@ -215,7 +215,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Chat
                   </a>
@@ -224,7 +224,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     FAQ
                   </a>
@@ -241,7 +241,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Terms of Service
                   </a>
@@ -250,7 +250,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Privacy Policy
                   </a>
@@ -259,7 +259,7 @@ export function Footer() {
                 <div>
                   <a
                     href="#"
-                    className="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                    className="text-gray-500 hover:text-amber-500 active:text-amber-600 transition duration-100"
                   >
                     Cookie settings
                   </a>
