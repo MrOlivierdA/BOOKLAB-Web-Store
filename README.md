@@ -85,4 +85,13 @@ A `Single Page App` using:
 - TypeScript
 - Tailwind
 
+### Features done
+- Login/Register in order to be able to buy items.
+- Browse through different products/categories.
+- Edit/Delete the account
+- Add/list products
+- Update product details, quantity.
+- See all running orders.
+- View a list of all users in the system.
+
 ![](./amazon-gif.gif)
