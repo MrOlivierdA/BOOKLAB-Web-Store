@@ -1,6 +1,24 @@
+import { useState } from "react";
+import { useEffect } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
 
 export function Products() {
+	const [books, setBooks] = useState([]);
+
+	useEffect(() => {
+		const getAllBooks = async () => {
+			try {
+				const res = await axios.get("http://localhost:5000/api/books");
+				console.log(res.data[0].title);
+				setBooks(res.data);
+			} catch (err) {
+				console.log(err);
+			}
+		};
+		getAllBooks();
+	}, []);
+
 	return (
 		<>
 			<div className="bg-white py-6 sm:py-8 lg:py-12">
@@ -17,6 +35,18 @@ export function Products() {
 					</div>
 
 					<div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-8">
+						<div>
+							{/* <div>{books[0].title}</div>
+							{/* <img src={books[0].img} />; */}
+							{/* <div>{books[0].price}</div> */}
+							{/* {books.map((book) => {
+								<div>{book.title}</div>;
+								// <div>{book.img}</div>;
+								<img src={book.img} />;
+								<div>{book.price}</div>;
+							})} */}
+						</div>
+
 						<div>
 							<Link to="/productsdetails" className="group h-80 block bg-gray-100 rounded-lg overflow-hidden relative mb-2 lg:mb-3">
 								<img
