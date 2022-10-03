@@ -12,10 +12,9 @@
 
 ## Learning objectives
 
-- MySQL
-- Laravel
+- MongoDB
+- NodeJS
 - React improvements
-- TypeScript
 - Tailwind
 - Follow your choosen design strictly
 - Deliver within the dead-line
@@ -74,15 +73,14 @@ You will have a technical stack to follow.
 
 A `Rest-like API` using:
 
-- Laravel
-- MySQL
+- NodeJs
+- MongoDB
 
 #### Front-end
 
 A `Single Page App` using:
 
 - React
-- TypeScript
 - Tailwind
 
 ### Features done
